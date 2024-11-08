@@ -37,6 +37,8 @@ Run the unemployment report:
 python app/unemployment_report.py
 ```
 
+Since running visualization doesn't work on my local, I decided to output an visualization through a PNG file
+
 Run the stock apps:
 ```sh
 python app/stocks.py
