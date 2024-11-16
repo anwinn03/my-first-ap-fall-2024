@@ -43,3 +43,11 @@ Run the stock apps:
 ```sh
 python app/stocks.py
 ```
+
+```sh
+python app/rps.py
+```
+
+```sh
+pytest
+```
