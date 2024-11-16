@@ -41,11 +41,11 @@ Since running visualization doesn't work on my local, I decided to output an vis
 
 Run the stock apps:
 ```sh
-python app/stocks.py
+python -m app.stocks
 ```
 
 ```sh
-python app/rps.py
+python -m app.rps
 ```
 
 ```sh

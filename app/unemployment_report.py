@@ -71,6 +71,9 @@ if __name__ == "__main__":
 
 
     # Challenge C
+    from plotly.express import line
+    from IPython.display import Image
+    
     dates = [d["date"] for d in data]
     rates = [float(d["value"]) for d in data]
     fig = line(x=dates, y=rates, title="United States Unemployment Rate over time", labels={"x": "Month", "y": "Unemployment Rate"})
