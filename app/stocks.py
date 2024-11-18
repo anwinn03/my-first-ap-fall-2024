@@ -75,3 +75,4 @@ if __name__ == "__main__":
 
 # Display the image
     Image(filename=file_path)
+    fig.show()
