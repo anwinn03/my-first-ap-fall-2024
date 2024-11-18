@@ -20,7 +20,6 @@ if __name__ == "__main__":
     print("SYMBOL:", symbol)
 
     # FETCH THE DATA
-
     df = fetch_stocks_csv(symbol)
 
     print(df.columns)
