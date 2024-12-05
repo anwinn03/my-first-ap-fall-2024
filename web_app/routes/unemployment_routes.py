@@ -39,7 +39,7 @@ def unemployment_api():
     print("UNEMPLOYMENT DATA (API)...")
 
     try:
-        data = fetch_unemployment_josn()
+        data = fetch_unemployment_json()
         return data
     except Exception as err:
         print('OOPS', err)
