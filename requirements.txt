@@ -13,3 +13,5 @@ IPython
 pytest
 
 flask
+
+gunicorn
