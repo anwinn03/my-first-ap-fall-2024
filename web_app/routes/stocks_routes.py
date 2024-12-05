@@ -45,7 +45,7 @@ def stocks_dashboard():
     except Exception as err:
         print('OOPS', err)
 
-        #flash("Market Data Error. Please check your symbol and try again!", "danger")
+        flash("Market Data Error. Please check your symbol and try again!", "danger")
         return redirect("/stocks/form")
 
 
